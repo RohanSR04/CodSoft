@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Popcorn Time | Best OTT</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Popcorn Time</a>
+        <ul class="nav">
+            <li>
+             <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Trend</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="content justice_small active">
+            <img  class="movie-title" src="./images/justice_title.jpg" alt="">
+        <h4>
+        <span>2021</span><span><i>17+</i></span><span>2h 59min</span><span>Fiction</span>
+        </h4>
+        <p>
+            Determined to ensure that Superman's ultimate sacrifice wasn't in vain, Bruce 
+            Wayne recruits a team of metahumans to protect the world from an approaching 
+            threat of catastrophic proportions.
+        </p>
+        <div class="button">
+            <a href="#"><i class="fa fa-play" aria-hidden="true">Watch</i></a>
+            <a href="#"><i class="fa fa-plus" aria-hidden="true">My List</i></a>
+        </div>
+      </div>
+      <div class="content baywatch_small">
+        <img  class="movie-title" src="./images/baywatch_title.png" alt="baywatch">
+        <h4>
+        <span>2017</span><span><i>18+</i></span><span>2h 1min</span><span>Comedy</span>
+        </h4>
+         <p>
+            Devoted lifeguard Mitch Buchannon butts heads with a brash new recruit, as 
+            they uncover a criminal plot that threatens the future of the bay.
+        </p>
+        <div class="button">
+            <a href="#"><i class="fa fa-play" aria-hidden="true">Watch</i></a>
+            <a href="#"><i class="fa fa-plus" aria-hidden="true">My List</i></a>
+        </div>
+      </div>
+        <div class="content john_small">
+        <img  class="movie-title" src="./images/john_title.png" alt="">
+    <h4>
+    <span>2019</span><span><i>18+</i></span><span>2h 11min</span><span>Thriller</span>
+    </h4>
+    <p>
+        John Wick is on the run after killing a member of the international 
+        assassins' guild, and with a $14 million price tag on his head, he is
+        the target of hit men and women everywhere.
+    </p>
+    <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true">Watch</i></a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true">My List</i></a>
+    </div>
+    </div>
+    <div class="content mortal_small">
+        <img class="movie-title" src="./images/mortal_title.png" alt="">
+    <h4>
+    <span>2021</span><span><i>18+</i></span><span>1h 50min</span><span>Adventure</span>
+    </h4>
+    <p>
+        MMA fighter Cole Young seeks out Earth's greatest champions in order to 
+        against the enemies of Outworld in a high stakes battle for the universe.
+    </p>
+    <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true">Watch</i></a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true">My List</i></a>
+    </div>
+    </div>
+    <div class="content wolverine_small">
+        <img class="movie-title" src="./images/wolverine_title.png" alt="">
+    <h4>
+    <span>2013</span><span><i>18+</i></span><span>2h 6min</span><span>Action</span>
+    </h4>
+    <p>
+        Wolverine comes to Japan to meet an old friend whose life he saved 
+        years ago, and gets embroiled in a conspiracy involving yakuza and mutants.
+    </p>
+    <div class="button">
+        <a href="#"><i class="fa fa-play" aria-hidden="true">Watch</i></a>
+        <a href="#"><i class="fa fa-plus" aria-hidden="true">My List</i></a>
+    </div>
+    </div>
+      <div class="carousel-box">
+        <div class="carousel">
+            <div class="carousel-item"
+              onclick="changeBg('justice_big.jpeg', 'justice_small');">
+                <img src="./images/movies/justice_small.jpg" alt="">
+            </div>
+            <div class="carousel-item"
+              onclick="changeBg('baywatch_big.jpg', 'baywatch_small');">
+                <img src="./images/movies/baywatch_small.jpg" alt="">
+            </div>
+            <div class="carousel-item"
+              onclick="changeBg('john_big.jpg', 'john_small');">
+                <img src="./images/movies/john_small.jpg" alt="">
+            </div>
+            <div class="carousel-item"
+              onclick="changeBg('mortal_big.jpeg', 'mortal_small');">
+                <img src="./images/movies//mortal_small.jpeg" alt="">
+            </div>
+            <div class="carousel-item"
+              onclick="changeBg('wolverine_big.jpg', 'wolverine_small');">
+                <img src="./images/movies/wolverine_small.jpg" alt="">
+            </div>
+        </div>
+      </div>
+      <a href="#" class="play" onclick="toggleVideo();"><i class="fa fa-play-circle-o" aria-hidden="true"></i>Watch Trailer</a>
+      <ul class="sci">
+        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div class="trailer">
+        <video src="./assets/transformers.mp4" muted controls="true" autoplay="true"></video>
+        <img class="close" src="./images/close.png" alt="" onclick="toggleVideo();">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+         $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+    </script>
+</body>
+</html> 
